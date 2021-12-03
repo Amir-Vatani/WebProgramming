@@ -1,0 +1,168 @@
+<html>
+    <head>
+    <title>LoginPage</title>
+
+    <style>
+        #backgr {
+            background-image: linear-gradient(#f700ff, rgb(0, 4, 255));
+            width: 100%;
+            height: 100%;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #login{
+            width: 400px;
+            height: 580px;
+            background-color: white;
+            position: relative;
+            border-radius: 5px;
+            font-family: Arial;
+            justify-content: center;
+            align-items: center;
+        }
+        #title{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 8%;
+            margin-bottom: 10%;
+            
+        }
+        #information{
+            background-color: rgb(240, 238, 238);
+            width: 64%;
+            height: 9%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 18%;
+            margin-bottom: 5%;
+            padding-left: 9%;
+            border-radius: 5px;
+            border: none;
+        }
+        #LoginBut{
+            background-color: #ff0095;
+            width: 64%;
+            height: 9%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5%;
+            margin-left: 18%;
+            margin-bottom: 5%;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-size: 15px;
+        }
+        #ReMe{
+            width: 15px;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            margin-left: 18%;
+            margin-bottom: 5%;
+            padding-left: 9%;
+        }
+        #check{
+            font-size: 13px;
+            color: gray;
+        }
+        #h5{
+            color: gray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8%;
+            margin-bottom: 5%;
+        }
+        button{
+            width: 30%;
+            height: 5.5%;
+            position: relative;
+            display:inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 5%;
+            border-radius: 5px;
+            border: none;
+            font-size: 13px;
+            margin-left: 18%;
+        }
+        #FacebookBut{
+        }
+        #GoogleBut{
+            margin-left: 3%;
+        }
+        #emailSvg{
+            position: absolute;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20%;
+            margin-top: -13.5%;
+            color: gray;
+        }
+        #lockSvg{
+            position: absolute;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20%;
+            margin-top: -13.5%;
+            color: gray;
+        }
+        #faceSvg{
+            position: absolute;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20%;
+            margin-top: -11%;
+            color: blue;
+        }
+        #googleSvg{
+            position: absolute;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 56%;
+            margin-top: -11%;
+            color:4885ed;
+        }
+    </style>
+    </head>
+    <body>
+        <div id="backgr">
+            <div id="login">
+                <div id="title"><h3>LOGIN</h3></div>
+                <input id="information" type="email" placeholder="Email">
+                <svg id="emailSvg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                </svg>
+                <input id="information" type="password" placeholder="Password">
+                <svg id="lockSvg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+                  </svg>
+                <input id="ReMe" type="checkbox" checked>
+                <label id="check">Remember me</label>
+                <input id="LoginBut" type="button" value="LOGIN">
+                <h5 id="h5">Or login with</h5>
+                <button id="FacebookBut">Facebook</button>
+                <svg id="faceSvg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg>
+                <button id="GoogleBut">Google</button>
+                <svg id="googleSvg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                    <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+                </svg>
+                <h5 id="h5">Not a member? <a href="#" style="color: gray;">Sign up now</a></h5>
+            </div>
+        </div>
+    </body>
+</html>
