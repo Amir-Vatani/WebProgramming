@@ -1,0 +1,57 @@
+.heart-circle{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: red;
+    border-radius: 150px;
+    top: 30px;
+}
+#c1{
+    left: 558px;
+}
+#c2{
+    left: 679.5px;
+}
+#heart-square{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: red;
+    transform: rotate(45deg);
+    border-top-left-radius: 140px;
+    left: 619px;
+    top: 90px;
+}
+
+.infinity{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-color: red;
+    border-style: solid;
+    border-width: 10px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+    top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}
+#inf-l{
+    transform: rotate(-45deg);
+    left: 535px;
+}
+#inf-r{
+    transform: rotate(135deg);
+    left: 720px;
+}
+#love{
+    transform: rotate(45deg);
+    color: darkred;
+}
+#you{
+    transform: rotate(-135deg);
+    color: darkred;
+}
