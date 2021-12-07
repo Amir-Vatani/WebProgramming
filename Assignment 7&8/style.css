@@ -344,7 +344,10 @@ li img{
     .about-game-col{
         width: 100%;
         margin-bottom: 100px;
-        padding-bottom: 100px;
+        padding: auto;
+    }
+    .about-game-pic img{
+        height: 70%;
     }
     .price-col{
         width: 100%;
