@@ -1,4 +1,10 @@
 # WebProgramming
+## Assignment 8
+![my web - rdr2 - responsive](https://user-images.githubusercontent.com/76522668/145115729-84e3f6d0-a524-41ac-8c00-b5d1f81dbdd9.png)
+
+## Assignment 7
+![my web - rdr2](https://user-images.githubusercontent.com/76522668/145115697-cede8040-c6c6-4f9e-a7fb-28d37d9d3c61.png)
+
 ## Assignment 6
 ### Menu
 ![Menu](https://user-images.githubusercontent.com/76522668/144724814-1f533a7a-9083-463e-acc5-99408a541268.png)
