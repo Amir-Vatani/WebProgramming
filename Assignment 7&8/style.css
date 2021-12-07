@@ -345,6 +345,7 @@ li img{
         width: 100%;
         margin-bottom: 100px;
         padding: auto;
+        padding-bottom: 100px;
     }
     .about-game-pic img{
         height: 70%;
