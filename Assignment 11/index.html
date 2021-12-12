@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Android Logo</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div style="position: relative; left: 300px; top: 10px;">
+            <div id="LeftEar"></div>
+            <div id="RightEar"></div>
+            <div id="head">
+                <div id="LeftEye"></div>
+                <div id="LeftTear"></div>
+                <div id="RightEye"></div>
+                <div id="RightTear"></div>
+                <div id="LeftCheek"></div>
+                <div id="RightCheek"></div>
+            </div>
+            <div id="Body"></div>
+            <div id="LeftHand"></div>
+            <div id="RightHand"></div>
+            <div id="LeftFoot"></div>
+            <div id="RightFoot"></div>
+
+            <div><h1>ANDROID</h1></div>
+        </div>
+
+        <script>
+            var LeftH = document.getElementById("LeftHand");
+            var RightH = document.getElementById("RightHand");
+            var Stomach = document.getElementById("Body");
+            var Head = document.getElementById("head");
+            var LeftE = document.getElementById("LeftEye");
+            var RightE = document.getElementById("RightEye");
+            var LeftT = document.getElementById("LeftTear");
+            var RightT = document.getElementById("RightTear");
+            var LeftCh = document.getElementById("LeftCheek");
+            var RightCh = document.getElementById("RightCheek");
+
+            LeftH.onclick = function() {
+                LeftH.style.transform = "rotate(130deg)";
+                LeftH.style.transition = "2s";
+
+                setTimeout(function () {
+                LeftH.style.transform = "rotate(0deg)";
+                LeftH.style.transition = "2s";
+                }, 2000)
+            }
+            RightH.onclick = function() {
+                RightH.style.transform = "rotate(-130deg)";
+                RightH.style.transition = "2s";
+
+                setTimeout(function () {
+                RightH.style.transform = "rotate(0deg)";
+                RightH.style.transition = "2s";
+                }, 2000)
+            }
+            Stomach.onclick = function() {
+                LeftE.style.height = "5px";
+                RightE.style.height = "5px";
+                LeftE.style.borderRadius = "20px"; 
+                RightE.style.borderRadius = "20px"; 
+                LeftT.style.backgroundColor = "skyblue";
+                RightT.style.backgroundColor = "skyblue";
+                
+                
+
+                setTimeout(function () {
+                    LeftE.style.height = "12px";
+                    LeftE.style.transition = "1s";
+                    RightE.style.height = "12px";
+                    RightE.style.transition = "1s";
+                    
+                    LeftT.style.backgroundColor = "#78C257";
+                    RightT.style.backgroundColor = "#78C257";
+                }, 2000)
+            }
+            Head.onclick = function() {
+                LeftE.style.width = "20px";
+                LeftE.style.height = "12px";
+                RightE.style.width = "20px";
+                RightE.style.height = "12px";
+                LeftE.style.borderRadius = "20px"; 
+                RightE.style.borderRadius = "20px"; 
+                LeftCh.style.backgroundColor = "rgb(243, 44, 44)";
+                RightCh.style.backgroundColor = "rgb(243, 44, 44)";
+
+
+                setTimeout(function () {
+                    LeftE.style.width = "12px";
+                    LeftE.style.height = "12px";
+                    LeftE.style.transition = "1s";
+                    RightE.style.width = "12px";
+                    RightE.style.height = "12px";
+                    RightE.style.transition = "1s";
+                
+                    LeftCh.style.backgroundColor = "#78C257";
+                    RightCh.style.backgroundColor = "#78C257";
+                }, 2000)
+            }
+
+        </script>
+    </body>
+</html>
