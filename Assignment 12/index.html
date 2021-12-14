@@ -1,0 +1,194 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <table border="1px">
+            <tr>
+                <td colspan="4"><input type="text" id="input" disabled></td>
+            </tr>
+            <tr>
+                <td><button id="AC">AC</button></td>
+                <td><button id="PosNag">+/-</button></td>
+                <td><button id="percent">%</button></td>
+                <td><button id="division" style="color: #fd7e14;">÷</button></td>
+            </tr>
+            <tr>
+                <td><button id="seven">7</button></td>
+                <td><button id="eight">8</button></td>
+                <td><button id="nine">9</button></td>
+                <td><button id="multiply" style="color: #fd7e14;">×</button></td>
+            </tr>
+            <tr>
+                <td><button id="four">4</button></td>
+                <td><button id="five">5</button></td>
+                <td><button id="six">6</button></td>
+                <td><button id="mines" style="color: #fd7e14;">-</button></td>
+            </tr>
+            <tr>
+                <td><button id="one">1</button></td>
+                <td><button id="tow">2</button></td>
+                <td><button id="three">3</button></td>
+                <td><button id="plus" style="color: #fd7e14;">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="zero" style="width: 90px;">0</button></td>
+                <td><button id="dot">.</button></td>
+                <td><button id="equal" style="color: #fd7e14;">=</button></td>
+            </tr>
+        </table>
+
+        <script>
+            var input = document.getElementById("input");
+
+            var zero = document.getElementById("zero");
+            var one = document.getElementById("one");
+            var tow = document.getElementById("tow");
+            var three = document.getElementById("three");
+            var four = document.getElementById("four");
+            var five = document.getElementById("five");
+            var six = document.getElementById("six");
+            var seven = document.getElementById("seven");
+            var eight = document.getElementById("eight");
+            var nine = document.getElementById("nine");
+            var dot = document.getElementById("dot");
+
+            var plus = document.getElementById("plus");
+            var mines = document.getElementById("mines");
+            var multiply = document.getElementById("multiply");
+            var division = document.getElementById("division");
+            var percent = document.getElementById("percent");
+            var PosNag = document.getElementById("PosNag");
+            var AC = document.getElementById("AC");
+
+
+            var temp;
+            var calcut;
+
+            zero.onclick = function() {
+                if (input.value != "0")
+                    input.value = input.value + "0";
+            }
+            one.onclick = function() {
+                if (input.value == "0")
+                    input.value = "1";
+                else
+                    input.value = input.value + "1";
+            }
+            tow.onclick = function() {
+                if (input.value == "0")
+                    input.value = "2";
+                else
+                    input.value = input.value + "2";
+            }
+            three.onclick = function() {
+                if (input.value == "0")
+                    input.value = "3";
+                else
+                    input.value = input.value + "3";
+            }
+            four.onclick = function() {
+                if (input.value == "0")
+                    input.value = "4";
+                else
+                    input.value = input.value + "4";
+            }
+            five.onclick = function() {
+                if (input.value == "0")
+                    input.value = "5";
+                else
+                    input.value = input.value + "5";
+            }
+            six.onclick = function() {
+                if (input.value == "0")
+                    input.value = "6";
+                else
+                    input.value = input.value + "6";
+            }
+            seven.onclick = function() {
+                if (input.value == "0")
+                    input.value = "7";
+                else
+                    input.value = input.value + "7";
+            }
+            eight.onclick = function() {
+                if (input.value == "0")
+                    input.value = "8";
+                else
+                    input.value = input.value + "8";
+            }
+            nine.onclick = function() {
+                if (input.value == "0")
+                    input.value = "9";
+                else
+                    input.value = input.value + "9";
+            }
+            dot.onclick = function() {
+                input.value = input.value + ".";
+            }
+
+
+            AC.onclick = function() {
+                temp = "";
+                input.value = "";
+            }
+            plus.onclick = function() {
+                temp = input.value;
+                input.value = "";
+                calcut = "+";
+            }
+            mines.onclick = function() {
+                temp = input.value;
+                input.value = "";
+                calcut = "-";
+            }
+            multiply.onclick = function() {
+                temp = input.value;
+                input.value = "";
+                calcut = "*";
+            }
+            division.onclick = function() {
+                temp = input.value;
+                input.value = "";
+                calcut = "/";
+            }
+            percent.onclick = function() {
+                temp = input.value;
+                input.value = "";
+                calcut = "%";
+            }
+            PosNag.onclick = function() {
+                
+                if (input.value > 0)
+                input.value = "-" + input.value;
+            }
+            
+            
+            equal.onclick = function() {
+                if (calcut == "+"){
+                    input.value = parseFloat(temp) + parseFloat(input.value);
+                }
+                if (calcut == "-"){
+                    input.value = parseFloat(temp) - parseFloat(input.value);
+                }
+                if (calcut == "*"){
+                    input.value = parseFloat(temp) * parseFloat(input.value);
+                }
+                if (calcut == "/"){
+                    input.value = parseFloat(temp) / parseFloat(input.value);
+                }
+                if (calcut == "%"){
+                    input.value = parseFloat(temp) % parseFloat(input.value);
+                }
+                
+                calcut = "";
+            }
+
+
+        </script>
+
+    </body>
+
+</html>
