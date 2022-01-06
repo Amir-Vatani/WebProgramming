@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link href="style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <button id="login-btn" onclick="login()">ثبت نام</button>
+        <div id="form">
+            <div id="login-title">
+                <h5>ثبت نام</h5>
+            </div>
+            <div id="dark">
+                <h5>حالت تاریک
+                    <input onclick="SwitchMode()" type="checkbox" id="dark-mode">
+                </h5>
+            </div>
+            <hr>
+
+            <h3>نام</h3>
+            <input type="text" placeholder="Enter name" id="in">
+            <h3>ایمیل</h3>
+            <input type="text" placeholder="Enter Email" id="in">
+            <p align=center><b>ایمیل شما به کاربران نمایش داده نمی شود</b></p>
+            <h3>کلمه عبور</h3>
+            <input type="password" placeholder="Password" id="in" style="margin-bottom: 10px;">
+            
+            <input type="radio" id="single" name="s-or-m" value="single" onclick="if(this.checked)single()">
+            <label for="single">مجرد</label><br>
+            <input type="radio" id="married" name="s-or-m" value="married" onclick="if(this.checked)married()">
+            <label for="married">متاهل</label><br>
+
+            <h3 class="wife">نام همسر</h3>
+            <input class="wife" type="text" placeholder="spouse name" id="in">
+
+            <input type="checkbox" id="child" onclick="havechild()">
+            <label for="child">دارای فرزند</label><br>
+
+            <p id="child-title">فرزندان
+                <button id="plus" onclick="addchild()">+</button>
+                <button id="mines" onclick="removechild()">-</button>
+            </p>
+            
+
+            <div id="childeren">
+
+            </div>
+
+            <button id="login">ثبت نام</button>
+
+        </div>
+        
+    </body>
+    <script src="script.js"></script>
+
+</html>
