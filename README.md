@@ -1,4 +1,12 @@
 # WebProgramming
+## Assignment 14
+### Metronome
+![Screenshot (478)](https://user-images.githubusercontent.com/76522668/148653559-9d5ba68f-a3a4-411e-8b86-59feede94f5a.png)
+### Spinner
+![Spinner](https://user-images.githubusercontent.com/76522668/148653579-20f905ed-f702-43a1-a7cc-4df4bded01ed.png)
+### LoginPage
+![Login](https://user-images.githubusercontent.com/76522668/148653593-35e851c0-e8fe-494c-91dd-106d0f9d8f1e.png)
+
 ## Assignment 13
 https://user-images.githubusercontent.com/76522668/147374061-7e968bf4-c7da-40ee-a033-46b32c2dfc95.mp4
 
