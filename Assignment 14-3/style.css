@@ -1,0 +1,48 @@
+h3, h6{
+    display: inline-block;
+    margin-right: 3px;
+    margin-bottom: 20px;
+}
+#main{
+    position: relative;
+    left: 30%;
+    top: 10%;
+    width: 250px;
+    height: 100px;
+    background-image: linear-gradient(red, yellow);
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+#Metronome{
+    width: 180px;
+}
+#mines{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(20, 172, 20);;
+    position: relative;
+    top: -3px;
+    border-radius: 100%;
+    border-color: rgb(20, 172, 20);;
+}
+#plus{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(20, 172, 20);
+    position: relative;
+    top: -3px;
+    border-radius: 100%;
+    border-color: rgb(20, 172, 20);;
+}
+#play{
+    background-color: rgb(20, 172, 20);;
+    border-color: rgb(20, 172, 20);;
+    border-radius: 20px;
+    height: 30px;
+    width: 55px;
+    text-align: center;
+    position: absolute;
+    right: 2%;
+    top: 15%;
+}
