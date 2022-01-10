@@ -1,0 +1,93 @@
+#hover:hover{
+    background-color: darkred;
+}
+#pic1{
+    width: 100%;
+    height: 90%;
+}
+#charecter{
+    border-radius: 100% !important;
+    border-style: solid;
+    border-color: darkred;
+    width: 100%;
+    height: 70%;
+}
+.charecter-pic{
+
+}
+.card p{
+    margin: 0;
+}
+#chapter-pic{
+    height: 200px;
+}
+#price h5{
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: lightgray;
+    margin: 0;
+    padding: 5px;
+}
+#price a{
+    padding: 10px 20px 10px 20px;
+}
+#contact input{
+    border-style: none;
+    border-bottom-style: solid;
+    margin: 0;
+    height: 30px;
+    margin-top: -5px;
+    margin-bottom: 8px;
+    border-radius: 0;
+}
+#contact h5{
+    margin: 0;
+}
+#contact label{
+}
+#btn-send{
+    position: absolute;
+    right: 0;
+    top: -7px;
+}
+.footer a img{
+    width: 65px;
+    height: 65px;
+    padding: 10px;
+    margin: 1.5px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .col{
+        width: 50%;
+    }
+    .footer a img{
+        width: 55px;
+        height: 55px;
+        padding: 10px;
+        margin: 1.5px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .col{
+        width: 100%;
+    }
+    #charecter{
+        width: 100%;
+        height: auto;
+    }
+    #chapter-pic{
+        height: auto;
+    }
+    #col5{
+        width: 100%;
+    }
+    .footer a img{
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        margin: 1.5px;
+    }
+}
