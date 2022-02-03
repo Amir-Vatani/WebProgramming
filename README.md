@@ -1,6 +1,6 @@
 # WebProgramming
 ## Assignment 20
-![InstagramLogo](https://user-images.githubusercontent.com/76522668/152400958-316ac603-1d1b-4a59-912d-df6981d0bbef.png)
+![InstagramLogo](https://user-images.githubusercontent.com/76522668/152403775-784ffcb0-83ec-4050-84c1-2bec8a4686ab.png)
 
 ## Assignment 15
 ![My Web ](https://user-images.githubusercontent.com/76522668/148852933-b8d13785-1b8d-4882-a2a6-ecc09b534c25.png)
