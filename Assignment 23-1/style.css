@@ -1,0 +1,99 @@
+.heart-circle{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: red;
+    border-radius: 150px;
+    top: 60px;
+    animation: heartbeat 0.8s infinite;
+}
+#c1{
+    left: 558px;
+    box-shadow:0 0 30px red;
+}
+#c2{
+    left: 679.5px;
+    box-shadow:0 0 30px red;
+}
+#heart-square{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: red;
+    transform: rotate(45deg);
+    /* transition:all 0s; */
+    border-top-left-radius: 140px;
+    left: 619px;
+    top: 120px;
+    animation: heartbeat 0.8s infinite;
+    box-shadow:0px 0px 30px red;
+}
+.infinity{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-color: red;
+    border-style: solid;
+    border-width: 10px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+    top: 395px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    animation: infinit 2.5s;
+}
+.infinity:hover{
+    animation: infinit 2.5s infinite;
+}
+#inf-l{
+    transform: rotate(-45deg);
+    left: 535px;
+}
+#inf-r{
+    transform: rotate(135deg);
+    left: 720px;
+}
+
+#love{
+    transform: rotate(45deg);
+    color: darkred;
+}
+#you{
+    transform: rotate(-135deg);
+    color: darkred;
+}
+
+@keyframes heartbeat {
+    0% {
+      transform: scale(1) ;
+    transform: rotate(45deg);
+
+    }
+    20% {
+      transform: scale(1.2);
+    transform: rotate(45deg);
+        
+    } 
+    40% {
+      transform: scale(1.4) rotate(45deg);
+    }
+}
+
+@keyframes infinit {
+    0% {
+      
+    transform: rotate(45deg);
+
+    }
+    20% {
+      
+    transform: rotate(45deg);
+        
+    } 
+    40% {
+      transform: rotate(45deg);
+    }
+}
