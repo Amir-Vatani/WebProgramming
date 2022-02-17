@@ -1,0 +1,25 @@
+#red td{
+    background-color: #BF0A30 ;
+    width: 400px;
+    height: 18px;
+    padding: 0;
+}
+#white td{
+    background-color: white;
+    width: 400px;
+    height: 16px;
+    padding: 0;
+}
+#blue{
+    background-color: #002868;
+    width: 175px;
+    height: 132px;
+    position: absolute;
+    margin-top: 2px;
+}
+.checked{
+    color: white;
+}
+span{
+    position: absolute;
+}
