@@ -2,8 +2,7 @@
 ## Assignment 23
 ### Happy Valentine's Day
 https://user-images.githubusercontent.com/76522668/154469608-cd9fe1e3-6c35-49e3-914c-bcafcd766941.mp4
-### Blood kofr flag
-![blood kofr](https://user-images.githubusercontent.com/76522668/154467900-0542d2c2-25e9-4432-85bd-6ce46ee007db.png)
+
 
 ## Assignment 20
 ![InstagramLogo](https://user-images.githubusercontent.com/76522668/152403775-784ffcb0-83ec-4050-84c1-2bec8a4686ab.png)
